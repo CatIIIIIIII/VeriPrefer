@@ -1,0 +1,17 @@
+vsim -c -do "run -all; quit" testbench
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -do "run -all; quit" testbench 
+# Start time: 14:20:42 on Apr 07,2025
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.stimulus_gen
+# Loading work.reference_module
+# Loading work.top_module
+# ** Error: (vsim-8378) Port size (5) does not match connection size (4) for implicit .name connection port 'x'. The port definition is at: 2012_q1g.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/top_module1 File: testbench.v Line: 91
+# Error loading design
+# End time: 14:20:43 on Apr 07,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0

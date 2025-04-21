@@ -1,0 +1,7 @@
+Create a module with one input and one output that behaves like a wire.
+
+Give me the complete code.
+
+module top_module(
+	input in,
+	output out);

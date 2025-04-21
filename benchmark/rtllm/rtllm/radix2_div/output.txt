@@ -1,0 +1,32 @@
+vsim -c -do "run -all; quit" testbench
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -do "run -all; quit" testbench 
+# Start time: 17:45:18 on Mar 18,2025
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.radix2_div
+# run -all
+# Error: dividend=100, divisor= 10, expected=000a, got=0a14
+# Error: dividend=156, divisor= 10, expected=00f6, got=0a14
+# Error: dividend=100, divisor=246, expected=00f6, got=0000
+# Error: dividend=156, divisor=246, expected=000a, got=0000
+# Error: dividend=123, divisor=123, expected=0001, got=0000
+# Error: dividend=123, divisor=251, expected=7b00, got=8080
+# Error: dividend=255, divisor=  7, expected=0324, got=878e
+# ===========Failed===========          7
+# ** Note: $finish    : testbench.v(87)
+#    Time: 825 ns  Iteration: 0  Instance: /testbench
+# End time: 17:45:18 on Mar 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Error: dividend=100, divisor= 10, expected=000a, got=0000
+# Error: dividend=156, divisor= 10, expected=00f6, got=0000
+# Error: dividend=100, divisor=246, expected=00f6, got=0000
+# ** Fatal: Unable to read lock file necessary for use of uncounted nodelocked license. Exiting.
+# End time: 17:49:17 on Mar 18,2025, Elapsed time: 0:05:00
+# Errors: 0, Warnings: 0
+# ** Fatal: Unable to read lock file necessary for use of uncounted nodelocked license. Exiting.
+# End time: 17:50:07 on Mar 18,2025, Elapsed time: 0:05:00
+# Errors: 0, Warnings: 0

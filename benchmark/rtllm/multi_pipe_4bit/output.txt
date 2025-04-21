@@ -1,0 +1,13 @@
+vsim -c -do "run -all; quit" testbench
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -do "run -all; quit" testbench 
+# Start time: 00:08:03 on Mar 21,2025
+# ** Error: (vsim-3170) Could not find 'testbench'.
+#         Searched libraries:
+#             /home/jzgrp/wangning/VeriPrefer/benchmark/rtllm/multi_pipe_4bit/work
+# Error loading design
+# End time: 00:08:04 on Mar 21,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0

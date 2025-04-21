@@ -1,0 +1,6 @@
+Build a circuit with no inputs and one output. That output should always drive 1 (or logic high).
+
+Give me the complete code.
+
+module top_module(
+	output one);

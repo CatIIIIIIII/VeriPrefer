@@ -1,0 +1,16 @@
+vsim -c -do "run -all; quit" testbench
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -do "run -all; quit" testbench 
+# Start time: 00:08:04 on Mar 21,2025
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.alu
+# run -all
+# ===========Error===========
+# ** Note: $finish    : testbench.v(86)
+#    Time: 175 ns  Iteration: 0  Instance: /testbench
+# End time: 00:08:05 on Mar 21,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

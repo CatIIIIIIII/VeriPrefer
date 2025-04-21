@@ -1,0 +1,21 @@
+vsim -c -do "run -all; quit" testbench
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -do "run -all; quit" testbench 
+# Start time: 09:48:40 on Mar 24,2025
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.asyn_fifo
+# Loading work.dual_port_RAM
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'waddr'. The port definition is at: asyn_fifo.v(94).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/ram_inst File: asyn_fifo.v Line: 69
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (3) for port 'raddr'. The port definition is at: asyn_fifo.v(97).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut/ram_inst File: asyn_fifo.v Line: 69
+# run -all
+# ===========Error===========
+# ** Note: $finish    : testbench.v(52)
+#    Time: 1050 ns  Iteration: 0  Instance: /testbench
+# End time: 09:48:40 on Mar 24,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2

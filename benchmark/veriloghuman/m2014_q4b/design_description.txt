@@ -1,0 +1,10 @@
+Implement a D flip flop, positive edge triggered, with an asynchronous reset "ar".
+
+Give me the complete code.
+
+module top_module (
+	input clk,
+	input d,
+	input ar,
+	output logic q
+);

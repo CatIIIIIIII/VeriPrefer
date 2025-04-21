@@ -1,0 +1,24 @@
+vsim -c -do "run -all; quit" testbench
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -do "run -all; quit" testbench 
+# Start time: 14:03:22 on Apr 07,2025
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.stimulus_gen
+# Loading work.reference_module
+# Loading work.top_module
+# run -all
+# ** Note: $finish    : testbench.v(48)
+#    Time: 97 ps  Iteration: 0  Instance: /testbench/stim1
+# Hint: Output 'outv' has no mismatches.
+# Hint: Output 'o2' has no mismatches.
+# Hint: Output 'o1' has no mismatches.
+# Hint: Output 'o0' has no mismatches.
+# Your Design Passed
+# Simulation finished at 97 ps
+# Mismatches: 0 in 19 samples
+# End time: 14:03:23 on Apr 07,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

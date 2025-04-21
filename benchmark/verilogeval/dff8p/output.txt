@@ -1,0 +1,23 @@
+vsim -c -do "run -all; quit" tb
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -do "run -all; quit" tb 
+# Start time: 09:21:07 on Apr 19,2025
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.stimulus_gen
+# Loading work.RefModule
+# Loading work.TopModule
+# run -all
+# Hint: Your reset doesn't seem to be working.
+# ** Note: $finish    : testbench.v(68)
+#    Time: 2171 ps  Iteration: 0  Instance: /tb/stim1
+# Hint: Output 'q' has 32 mismatches. First mismatch occurred at time 15.
+# Hint: Total mismatched samples is 32 out of 434 samples
+# 
+# Simulation finished at 2171 ps
+# Mismatches: 32 in 434 samples
+# End time: 09:21:07 on Apr 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

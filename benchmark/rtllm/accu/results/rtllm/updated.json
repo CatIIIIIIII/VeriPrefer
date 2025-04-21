@@ -1,0 +1,370 @@
+{
+  "results": {
+    "multi_pipe_8bit": {
+      "syntax_success": 3,
+      "func_success": 0
+    },
+    "pe": {
+      "syntax_success": 4,
+      "func_success": 0
+    },
+    "multi_pipe_4bit": {
+      "syntax_success": 8,
+      "func_success": 0
+    },
+    "adder_pipe_64bit": {
+      "syntax_success": 7,
+      "func_success": 0
+    },
+    "adder_32bit": {
+      "syntax_success": 12,
+      "func_success": 0
+    },
+    "width_8to16": {
+      "syntax_success": 11,
+      "func_success": 0
+    },
+    "radix2_div": {
+      "syntax_success": 12,
+      "func_success": 0
+    },
+    "div_16bit": {
+      "syntax_success": 12,
+      "func_success": 0
+    },
+    "asyn_fifo": {
+      "syntax_success": 7,
+      "func_success": 0
+    },
+    "parallel2serial": {
+      "syntax_success": 12,
+      "func_success": 0
+    },
+    "traffic_light": {
+      "syntax_success": 12,
+      "func_success": 0
+    },
+    "calendar": {
+      "syntax_success": 12,
+      "func_success": 0
+    },
+    "pulse_detect": {
+      "syntax_success": 14,
+      "func_success": 0
+    },
+    "multi_16bit": {
+      "syntax_success": 18,
+      "func_success": 0
+    },
+    "signal_generator": {
+      "syntax_success": 14,
+      "func_success": 0
+    },
+    "adder_8bit": {
+      "syntax_success": 16,
+      "func_success": 0
+    },
+    "fsm": {
+      "syntax_success": 18,
+      "func_success": 0
+    },
+    "adder_16bit": {
+      "syntax_success": 14,
+      "func_success": 0
+    },
+    "serial2parallel": {
+      "syntax_success": 16,
+      "func_success": 0
+    },
+    "JC_counter": {
+      "syntax_success": 16,
+      "func_success": 0
+    },
+    "right_shifter": {
+      "syntax_success": 18,
+      "func_success": 0
+    },
+    "counter_12": {
+      "syntax_success": 19,
+      "func_success": 0
+    },
+    "RAM": {
+      "syntax_success": 18,
+      "func_success": 0
+    },
+    "multi_booth_8bit": {
+      "syntax_success": 14,
+      "func_success": 0
+    },
+    "edge_detect": {
+      "syntax_success": 17,
+      "func_success": 0
+    },
+    "freq_div": {
+      "syntax_success": 16,
+      "func_success": 0
+    },
+    "synchronizer": {
+      "syntax_success": 15,
+      "func_success": 0
+    },
+    "alu": {
+      "syntax_success": 19,
+      "func_success": 0
+    },
+    "accu": {
+      "syntax_success": 15,
+      "func_success": 0
+    }
+  },
+  "pass_at_k": {
+    "overall": {
+      "1": {
+        "syntax": 0.6706896551724139,
+        "functional": 0.0
+      },
+      "5": {
+        "syntax": 0.9679504288103628,
+        "functional": 0.0
+      }
+    },
+    "per_task": {
+      "1": {
+        "multi_pipe_8bit": {
+          "syntax": 0.15000000000000002,
+          "functional": 0.0
+        },
+        "pe": {
+          "syntax": 0.19999999999999996,
+          "functional": 0.0
+        },
+        "multi_pipe_4bit": {
+          "syntax": 0.4,
+          "functional": 0.0
+        },
+        "adder_pipe_64bit": {
+          "syntax": 0.35,
+          "functional": 0.0
+        },
+        "adder_32bit": {
+          "syntax": 0.6,
+          "functional": 0.0
+        },
+        "width_8to16": {
+          "syntax": 0.55,
+          "functional": 0.0
+        },
+        "radix2_div": {
+          "syntax": 0.6,
+          "functional": 0.0
+        },
+        "div_16bit": {
+          "syntax": 0.6,
+          "functional": 0.0
+        },
+        "asyn_fifo": {
+          "syntax": 0.35,
+          "functional": 0.0
+        },
+        "parallel2serial": {
+          "syntax": 0.6,
+          "functional": 0.0
+        },
+        "traffic_light": {
+          "syntax": 0.6,
+          "functional": 0.0
+        },
+        "calendar": {
+          "syntax": 0.6,
+          "functional": 0.0
+        },
+        "pulse_detect": {
+          "syntax": 0.7,
+          "functional": 0.0
+        },
+        "multi_16bit": {
+          "syntax": 0.9,
+          "functional": 0.0
+        },
+        "signal_generator": {
+          "syntax": 0.7,
+          "functional": 0.0
+        },
+        "adder_8bit": {
+          "syntax": 0.8,
+          "functional": 0.0
+        },
+        "fsm": {
+          "syntax": 0.9,
+          "functional": 0.0
+        },
+        "adder_16bit": {
+          "syntax": 0.7,
+          "functional": 0.0
+        },
+        "serial2parallel": {
+          "syntax": 0.8,
+          "functional": 0.0
+        },
+        "JC_counter": {
+          "syntax": 0.8,
+          "functional": 0.0
+        },
+        "right_shifter": {
+          "syntax": 0.9,
+          "functional": 0.0
+        },
+        "counter_12": {
+          "syntax": 0.95,
+          "functional": 0.0
+        },
+        "RAM": {
+          "syntax": 0.9,
+          "functional": 0.0
+        },
+        "multi_booth_8bit": {
+          "syntax": 0.7,
+          "functional": 0.0
+        },
+        "edge_detect": {
+          "syntax": 0.85,
+          "functional": 0.0
+        },
+        "freq_div": {
+          "syntax": 0.8,
+          "functional": 0.0
+        },
+        "synchronizer": {
+          "syntax": 0.75,
+          "functional": 0.0
+        },
+        "alu": {
+          "syntax": 0.95,
+          "functional": 0.0
+        },
+        "accu": {
+          "syntax": 0.75,
+          "functional": 0.0
+        }
+      },
+      "5": {
+        "multi_pipe_8bit": {
+          "syntax": 0.6008771929824561,
+          "functional": 0.0
+        },
+        "pe": {
+          "syntax": 0.7182662538699691,
+          "functional": 0.0
+        },
+        "multi_pipe_4bit": {
+          "syntax": 0.9489164086687306,
+          "functional": 0.0
+        },
+        "adder_pipe_64bit": {
+          "syntax": 0.9169891640866873,
+          "functional": 0.0
+        },
+        "adder_32bit": {
+          "syntax": 0.9963880288957688,
+          "functional": 0.0
+        },
+        "width_8to16": {
+          "syntax": 0.9918730650154799,
+          "functional": 0.0
+        },
+        "radix2_div": {
+          "syntax": 0.9963880288957688,
+          "functional": 0.0
+        },
+        "div_16bit": {
+          "syntax": 0.9963880288957688,
+          "functional": 0.0
+        },
+        "asyn_fifo": {
+          "syntax": 0.9169891640866873,
+          "functional": 0.0
+        },
+        "parallel2serial": {
+          "syntax": 0.9963880288957688,
+          "functional": 0.0
+        },
+        "traffic_light": {
+          "syntax": 0.9963880288957688,
+          "functional": 0.0
+        },
+        "calendar": {
+          "syntax": 0.9963880288957688,
+          "functional": 0.0
+        },
+        "pulse_detect": {
+          "syntax": 0.9996130030959752,
+          "functional": 0.0
+        },
+        "multi_16bit": {
+          "syntax": 1.0,
+          "functional": 0.0
+        },
+        "signal_generator": {
+          "syntax": 0.9996130030959752,
+          "functional": 0.0
+        },
+        "adder_8bit": {
+          "syntax": 1.0,
+          "functional": 0.0
+        },
+        "fsm": {
+          "syntax": 1.0,
+          "functional": 0.0
+        },
+        "adder_16bit": {
+          "syntax": 0.9996130030959752,
+          "functional": 0.0
+        },
+        "serial2parallel": {
+          "syntax": 1.0,
+          "functional": 0.0
+        },
+        "JC_counter": {
+          "syntax": 1.0,
+          "functional": 0.0
+        },
+        "right_shifter": {
+          "syntax": 1.0,
+          "functional": 0.0
+        },
+        "counter_12": {
+          "syntax": 1.0,
+          "functional": 0.0
+        },
+        "RAM": {
+          "syntax": 1.0,
+          "functional": 0.0
+        },
+        "multi_booth_8bit": {
+          "syntax": 0.9996130030959752,
+          "functional": 0.0
+        },
+        "edge_detect": {
+          "syntax": 1.0,
+          "functional": 0.0
+        },
+        "freq_div": {
+          "syntax": 1.0,
+          "functional": 0.0
+        },
+        "synchronizer": {
+          "syntax": 0.9999355005159959,
+          "functional": 0.0
+        },
+        "alu": {
+          "syntax": 1.0,
+          "functional": 0.0
+        },
+        "accu": {
+          "syntax": 0.9999355005159959,
+          "functional": 0.0
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+vsim -c -do "run -all; quit" testbench
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -do "run -all; quit" testbench 
+# Start time: 09:48:17 on Mar 24,2025
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.pe
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/dut File: testbench.v Line: 10
+# ** Warning: (vsim-3722) testbench.v(10): [TFMPC] - Missing connection for port 'c'.
+# run -all
+# ===========Error===========
+#  quit
+# End time: 09:48:18 on Mar 24,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 2

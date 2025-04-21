@@ -1,0 +1,18 @@
+vsim -c -do "run -all; quit" testbench
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -do "run -all; quit" testbench 
+# Start time: 14:03:27 on Apr 07,2025
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.stimulus_gen
+# Loading work.reference_module
+# ** Error: (vsim-3033) Instantiation of 'top_module' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench File: testbench.v Line: 106
+#         Searched libraries:
+#             /home/jzgrp/wangning/VeriPrefer/benchmark/veriloghuman/ece241_2014_q4/work
+# Error loading design
+# End time: 14:03:27 on Apr 07,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0

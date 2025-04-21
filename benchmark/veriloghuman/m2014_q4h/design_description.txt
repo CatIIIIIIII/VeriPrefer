@@ -1,0 +1,7 @@
+The module assigns the output port to the same value as the input port combinationally.
+
+Give me the complete code.
+
+module top_module(
+	input in,
+	output out);

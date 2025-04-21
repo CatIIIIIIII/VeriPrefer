@@ -1,0 +1,21 @@
+vsim -c -do "run -all; quit" testbench
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -do "run -all; quit" testbench 
+# Start time: 14:19:41 on Apr 07,2025
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.stimulus_gen
+# Loading work.reference_module
+# Loading work.top_module
+# run -all
+# ** Note: $finish    : testbench.v(54)
+#    Time: 2536 ps  Iteration: 0  Instance: /testbench/stim1
+# Hint: Output 'z' has 3 mismatches. First mismatch occurred at time 125.
+# Your Design Failed
+# Simulation finished at 2536 ps
+# Mismatches: 3 in 507 samples
+# End time: 14:19:42 on Apr 07,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

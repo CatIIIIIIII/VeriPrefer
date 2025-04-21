@@ -1,0 +1,6 @@
+Build a circuit that always outputs a LOW.
+
+Give me the complete code.
+
+module top_module(
+	output zero);

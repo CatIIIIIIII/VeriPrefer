@@ -1,0 +1,9 @@
+Implement a D latch using an always block.
+
+Give me the complete code.
+
+module top_module (
+	input d,
+	input ena,
+	output logic q
+);

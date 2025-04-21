@@ -1,0 +1,28 @@
+vsim -c -do "run -all; quit" tb
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -do "run -all; quit" tb 
+# Start time: 09:22:52 on Apr 19,2025
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.stimulus_gen
+# Loading work.RefModule
+# Loading work.TopModule
+# run -all
+# Hint: Your reset doesn't seem to be working.
+# Hint: Clock seems to reset to 04:00:00 AM (Should be 12:00:00 AM).
+# TIMEOUT
+# ** Note: $finish    : testbench.v(261)
+#    Time: 1 us  Iteration: 0  Instance: /tb
+# Hint: Output 'pm' has 86400 mismatches. First mismatch occurred at time 434270.
+# Hint: Output 'hh' has 185598 mismatches. First mismatch occurred at time 10.
+# Hint: Output 'mm' has 196186 mismatches. First mismatch occurred at time 2870.
+# Hint: Output 'ss' has 196612 mismatches. First mismatch occurred at time 30.
+# Hint: Total mismatched samples is 199996 out of 199999 samples
+# 
+# Simulation finished at 1000000 ps
+# Mismatches: 199996 in 199999 samples
+# End time: 09:22:53 on Apr 19,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

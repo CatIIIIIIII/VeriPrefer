@@ -1,0 +1,22 @@
+vsim -c -do "run -all; quit" tb
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -do "run -all; quit" tb 
+# Start time: 09:23:37 on Apr 19,2025
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.stimulus_gen
+# Loading work.RefModule
+# Loading work.TopModule
+# run -all
+# ** Note: $finish    : testbench.v(74)
+#    Time: 3216 ps  Iteration: 0  Instance: /tb/stim1
+# Hint: Output 'start_shifting' has 276 mismatches. First mismatch occurred at time 60.
+# Hint: Total mismatched samples is 276 out of 643 samples
+# 
+# Simulation finished at 3216 ps
+# Mismatches: 276 in 643 samples
+# End time: 09:23:38 on Apr 19,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

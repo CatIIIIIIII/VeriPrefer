@@ -1,0 +1,24 @@
+vsim -c -do "run -all; quit" tb
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -do "run -all; quit" tb 
+# Start time: 09:20:28 on Apr 19,2025
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.stimulus_gen
+# Loading work.RefModule
+# Loading work.TopModule
+# run -all
+# ** Note: $finish    : testbench.v(63)
+#    Time: 1231 ps  Iteration: 0  Instance: /tb/stim1
+# Hint: Output 'heater' has no mismatches.
+# Hint: Output 'aircon' has no mismatches.
+# Hint: Output 'fan' has 62 mismatches. First mismatch occurred at time 60.
+# Hint: Total mismatched samples is 62 out of 246 samples
+# 
+# Simulation finished at 1231 ps
+# Mismatches: 62 in 246 samples
+# End time: 09:20:29 on Apr 19,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

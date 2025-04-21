@@ -1,0 +1,36 @@
+### model
+model_name_or_path: ./outputs/Qwen2.5-Coder-14B/SFT
+trust_remote_code: true
+
+### method
+stage: dpo
+do_train: true
+finetuning_type: lora
+lora_target: all
+pref_beta: 0.1
+pref_loss: sigmoid  # choices: [sigmoid (dpo), orpo, simpo]
+
+### dataset
+dataset: qwen_14B
+template: qwen
+cutoff_len: 2048
+max_samples: 250
+overwrite_cache: true
+preprocessing_num_workers: 16
+
+### output
+output_dir: ./outputs/Qwen2.5-Coder-14B/TB_s250
+logging_steps: 10
+save_steps: 100
+plot_loss: true
+overwrite_output_dir: true
+
+### train
+per_device_train_batch_size: 2
+gradient_accumulation_steps: 2
+learning_rate: 5.0e-6
+num_train_epochs: 10.0
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+bf16: true
+ddp_timeout: 180000000

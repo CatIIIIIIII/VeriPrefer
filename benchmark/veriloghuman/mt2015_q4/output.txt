@@ -1,0 +1,24 @@
+vsim -c -do "run -all; quit" testbench
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -do "run -all; quit" testbench 
+# Start time: 14:02:23 on Apr 07,2025
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.stimulus_gen
+# Loading work.reference_module
+# Loading work.top_module
+# Loading work.A
+# ** Error: (vsim-3033) Instantiation of 'B' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/top_module1 File: mt2015_q4.v Line: 17
+#         Searched libraries:
+#             /home/jzgrp/wangning/VeriPrefer/benchmark/veriloghuman/mt2015_q4/work
+# ** Error: (vsim-3033) Instantiation of 'B' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/top_module1 File: mt2015_q4.v Line: 33
+#         Searched libraries:
+#             /home/jzgrp/wangning/VeriPrefer/benchmark/veriloghuman/mt2015_q4/work
+# Error loading design
+# End time: 14:02:23 on Apr 07,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0

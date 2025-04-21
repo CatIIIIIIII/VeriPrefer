@@ -1,0 +1,28 @@
+vsim -c -do "run -all; quit" testbench
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -do "run -all; quit" testbench 
+# Start time: 14:06:30 on Apr 07,2025
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.stimulus_gen
+# Loading work.reference_module
+# Loading work.top_module
+# run -all
+# ** Note: $finish    : testbench.v(70)
+#    Time: 16516 ps  Iteration: 0  Instance: /testbench/stim1
+# Hint: Output 'B3_next' has 1529 mismatches. First mismatch occurred at time 5.
+# Hint: Output 'S_next' has 987 mismatches. First mismatch occurred at time 5.
+# Hint: Output 'S1_next' has 980 mismatches. First mismatch occurred at time 90.
+# Hint: Output 'Count_next' has 1192 mismatches. First mismatch occurred at time 5.
+# Hint: Output 'Wait_next' has 594 mismatches. First mismatch occurred at time 125.
+# Hint: Output 'done' has no mismatches.
+# Hint: Output 'counting' has no mismatches.
+# Hint: Output 'shift_ena' has 221 mismatches. First mismatch occurred at time 5.
+# Your Design Failed
+# Simulation finished at 16516 ps
+# Mismatches: 2811 in 3303 samples
+# End time: 14:06:31 on Apr 07,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

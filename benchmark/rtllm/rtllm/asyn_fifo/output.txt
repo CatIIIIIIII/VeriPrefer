@@ -1,0 +1,16 @@
+vsim -c -do "run -all; quit" testbench
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -do "run -all; quit" testbench 
+# Start time: 17:45:11 on Mar 18,2025
+# Loading sv_std.std
+# Loading work.testbench
+# ** Error: (vsim-3033) Instantiation of 'asyn_fifo' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench File: testbench.v Line: 10
+#         Searched libraries:
+#             /home/jzgrp/wangning/vllm/benchmark/rtllm/asyn_fifo/work
+# Error loading design
+# End time: 17:45:11 on Mar 18,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0

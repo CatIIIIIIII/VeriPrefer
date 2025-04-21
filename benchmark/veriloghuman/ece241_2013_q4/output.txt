@@ -1,0 +1,25 @@
+vsim -c -do "run -all; quit" testbench
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -do "run -all; quit" testbench 
+# Start time: 14:02:23 on Apr 07,2025
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.stimulus_gen
+# Loading work.reference_module
+# Loading work.top_module
+# run -all
+# Hint: Your reset doesn't seem to be working.
+# ** Note: $finish    : testbench.v(127)
+#    Time: 10200 ps  Iteration: 1  Instance: /testbench/stim1
+# Hint: Output 'fr3' has 1 mismatches. First mismatch occurred at time 55.
+# Hint: Output 'fr2' has 1169 mismatches. First mismatch occurred at time 30.
+# Hint: Output 'fr1' has no mismatches.
+# Hint: Output 'dfr' has 1240 mismatches. First mismatch occurred at time 10.
+# Your Design Failed
+# Simulation finished at 10200 ps
+# Mismatches: 1806 in 2039 samples
+# End time: 14:02:23 on Apr 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

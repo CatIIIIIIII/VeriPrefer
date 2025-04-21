@@ -1,0 +1,17 @@
+vsim -c -do "run -all; quit" testbench
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -do "run -all; quit" testbench 
+# Start time: 17:45:17 on Mar 18,2025
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.adder_pipe_64bit
+# run -all
+# ** Fatal: Unable to read lock file necessary for use of uncounted nodelocked license. Exiting.
+# End time: 17:49:29 on Mar 18,2025, Elapsed time: 0:05:00
+# Errors: 0, Warnings: 0
+# ** Fatal: Unable to read lock file necessary for use of uncounted nodelocked license. Exiting.
+# End time: 17:50:17 on Mar 18,2025, Elapsed time: 0:05:00
+# Errors: 0, Warnings: 0

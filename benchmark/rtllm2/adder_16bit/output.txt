@@ -1,0 +1,18 @@
+vsim -c -do "run -all; quit" testbench
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -do "run -all; quit" testbench 
+# Start time: 09:48:16 on Mar 24,2025
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.adder_16bit
+# Loading work.adder_8bit
+# Loading work.adder_4bit
+# Loading work.adder_2bit
+# run -all
+# ===========Test completed with          80 / 100 failures===========
+#  quit
+# End time: 09:48:17 on Mar 24,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

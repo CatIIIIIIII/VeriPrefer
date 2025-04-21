@@ -1,0 +1,34 @@
+vsim -c -do "run -all; quit" tb
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -do "run -all; quit" tb 
+# Start time: 09:21:07 on Apr 19,2025
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.stimulus_gen
+# Loading work.RefModule
+# Loading work.TopModule
+# run -all
+# Hint: next_state[0] is incorrect.
+# Hint: next_state[1] is incorrect.
+# Hint: next_state[2] is incorrect.
+# Hint: next_state[3] is incorrect.
+# Hint: next_state[4] is incorrect.
+# Hint: next_state[5] is incorrect.
+# Hint: next_state[6] is incorrect.
+# Hint: next_state[7] is incorrect.
+# Hint: next_state[8] is incorrect.
+# Hint: next_state[9] is incorrect.
+# ** Note: $finish    : testbench.v(62)
+#    Time: 1111 ps  Iteration: 0  Instance: /tb/stim1
+# Hint: Output 'next_state' has 205 mismatches. First mismatch occurred at time 15.
+# Hint: Output 'out1' has 71 mismatches. First mismatch occurred at time 50.
+# Hint: Output 'out2' has 70 mismatches. First mismatch occurred at time 45.
+# Hint: Total mismatched samples is 205 out of 222 samples
+# 
+# Simulation finished at 1111 ps
+# Mismatches: 205 in 222 samples
+# End time: 09:21:07 on Apr 19,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

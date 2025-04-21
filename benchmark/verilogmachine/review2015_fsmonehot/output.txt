@@ -1,0 +1,31 @@
+vsim -c -do "run -all; quit" testbench
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -do "run -all; quit" testbench 
+# Start time: 14:23:47 on Apr 07,2025
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.stimulus_gen
+# Loading work.reference_module
+# Loading work.top_module
+# run -all
+# Hint: Your circuit passed when given only one-hot inputs, but not with random inputs.
+# Hint: Are you doing something more complicated than deriving state transition equations by inspection?
+# 
+# ** Note: $finish    : testbench.v(70)
+#    Time: 16516 ps  Iteration: 0  Instance: /testbench/stim1
+# Hint: Output 'B3_next' has 1474 mismatches. First mismatch occurred at time 1520.
+# Hint: Output 'S_next' has 1719 mismatches. First mismatch occurred at time 1515.
+# Hint: Output 'S1_next' has 754 mismatches. First mismatch occurred at time 1515.
+# Hint: Output 'Count_next' has 1889 mismatches. First mismatch occurred at time 1515.
+# Hint: Output 'Wait_next' has 1326 mismatches. First mismatch occurred at time 1540.
+# Hint: Output 'done' has 1500 mismatches. First mismatch occurred at time 1515.
+# Hint: Output 'counting' has 1504 mismatches. First mismatch occurred at time 1515.
+# Hint: Output 'shift_ena' has 2812 mismatches. First mismatch occurred at time 1515.
+# Your Design Failed
+# Simulation finished at 16516 ps
+# Mismatches: 2975 in 3303 samples
+# End time: 14:23:47 on Apr 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

@@ -1,0 +1,26 @@
+vsim -c -do "run -all; quit" testbench
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -do "run -all; quit" testbench 
+# Start time: 09:47:59 on Mar 24,2025
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.freq_divbyodd
+# run -all
+# Failed at          1: clk=1, clk_div=0 (expected           1)
+# Failed at          2: clk=0, clk_div=0 (expected           1)
+# Failed at          3: clk=1, clk_div=0 (expected           1)
+# Failed at          4: clk=0, clk_div=0 (expected           1)
+# Failed at          6: clk=0, clk_div=1 (expected           0)
+# Failed at          7: clk=1, clk_div=1 (expected           0)
+# Failed at          8: clk=0, clk_div=1 (expected           0)
+# Failed at          9: clk=1, clk_div=1 (expected           0)
+# Failed at         10: clk=0, clk_div=1 (expected           0)
+# Failed at         15: clk=1, clk_div=0 (expected           1)
+# =========== Test completed with          10/20 failures ===========
+# ** Note: $finish    : testbench.v(27)
+#    Time: 130 ns  Iteration: 0  Instance: /testbench
+# End time: 09:48:00 on Mar 24,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

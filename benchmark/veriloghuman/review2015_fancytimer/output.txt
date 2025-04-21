@@ -1,0 +1,26 @@
+vsim -c -do "run -all; quit" testbench
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -do "run -all; quit" testbench 
+# Start time: 14:04:59 on Apr 07,2025
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.stimulus_gen
+# Loading work.reference_module
+# Loading work.top_module
+# run -all
+# Hint: The first test case should count for 2000 cycles. Your circuit counted 0
+# Hint: The second test case should count for 15000 cycles. Your circuit counted 0
+# Hint: Your FSM didn't pass the sample timing diagram posted with the problem statement. Perhaps try debugging that?
+# ** Note: $finish    : testbench.v(170)
+#    Time: 1177236 ps  Iteration: 0  Instance: /testbench/stim1
+# Hint: Output 'count' has 218816 mismatches. First mismatch occurred at time 130.
+# Hint: Output 'counting' has 233794 mismatches. First mismatch occurred at time 130.
+# Hint: Output 'done' has 524 mismatches. First mismatch occurred at time 20130.
+# Your Design Failed
+# Simulation finished at 1177236 ps
+# Mismatches: 234318 in 235447 samples
+# End time: 14:05:02 on Apr 07,2025, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0

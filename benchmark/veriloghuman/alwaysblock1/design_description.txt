@@ -1,0 +1,10 @@
+Build an AND gate using both an assign statement and a combinational always block. 
+
+Give me the complete code.
+
+module top_module(
+	input a, 
+	input b,
+	output out_assign,
+	output reg out_alwaysblock
+);

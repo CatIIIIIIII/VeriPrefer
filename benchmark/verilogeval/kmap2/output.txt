@@ -1,0 +1,18 @@
+vsim -c -do "run -all; quit" tb
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -do "run -all; quit" tb 
+# Start time: 09:21:47 on Apr 19,2025
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.stimulus_gen
+# Loading work.RefModule
+# ** Error: (vsim-3033) Instantiation of 'TopModule' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tb File: testbench.v Line: 95
+#         Searched libraries:
+#             /home/jzgrp/wangning/VeriPrefer/benchmark/verilogeval/kmap2/work
+# Error loading design
+# End time: 09:21:47 on Apr 19,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0

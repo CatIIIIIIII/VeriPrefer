@@ -1,0 +1,29 @@
+vsim -c -do "run -all; quit" testbench
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -do "run -all; quit" testbench 
+# Start time: 17:45:11 on Mar 18,2025
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.adder_16bit
+# ** Error (suppressible): (vsim-3356) Index into 'net' is out of bounds.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/uut/gen_adder[8]/genblk1 File: adder_16bit.v Line: 23
+# ** Error (suppressible): (vsim-3356) Index into 'net' is out of bounds.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/uut/gen_adder[9]/genblk1 File: adder_16bit.v Line: 23
+# ** Error (suppressible): (vsim-3356) Index into 'net' is out of bounds.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/uut/gen_adder[10]/genblk1 File: adder_16bit.v Line: 23
+# ** Error (suppressible): (vsim-3356) Index into 'net' is out of bounds.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/uut/gen_adder[11]/genblk1 File: adder_16bit.v Line: 23
+# ** Error (suppressible): (vsim-3356) Index into 'net' is out of bounds.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/uut/gen_adder[12]/genblk1 File: adder_16bit.v Line: 23
+# ** Error (suppressible): (vsim-3356) Index into 'net' is out of bounds.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/uut/gen_adder[13]/genblk1 File: adder_16bit.v Line: 23
+# ** Error (suppressible): (vsim-3356) Index into 'net' is out of bounds.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/uut/gen_adder[14]/genblk1 File: adder_16bit.v Line: 23
+# ** Error (suppressible): (vsim-3356) Index into 'net' is out of bounds.
+#    Time: 0 ps  Iteration: 0  Region: /testbench/uut/gen_adder[15]/genblk1 File: adder_16bit.v Line: 23
+# Error loading design
+# End time: 17:45:11 on Mar 18,2025, Elapsed time: 0:00:00
+# Errors: 8, Warnings: 0

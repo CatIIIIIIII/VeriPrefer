@@ -1,0 +1,16 @@
+vsim -c -do "run -all; quit" testbench
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -do "run -all; quit" testbench 
+# Start time: 17:45:10 on Mar 18,2025
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.JC_counter
+# run -all
+# ===========Your Design Passed===========
+# ** Note: $finish    : testbench.v(59)
+#    Time: 1310 ns  Iteration: 0  Instance: /testbench
+# End time: 17:45:10 on Mar 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

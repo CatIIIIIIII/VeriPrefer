@@ -1,0 +1,9 @@
+Create a module that implements an XNOR gate.
+
+Give me the complete code.
+
+module top_module(
+	input a, 
+	input b,
+	output out
+);

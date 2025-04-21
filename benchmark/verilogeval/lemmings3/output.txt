@@ -1,0 +1,25 @@
+vsim -c -do "run -all; quit" tb
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -do "run -all; quit" tb 
+# Start time: 09:23:33 on Apr 19,2025
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.stimulus_gen
+# Loading work.RefModule
+# Loading work.TopModule
+# run -all
+# ** Note: $finish    : testbench.v(94)
+#    Time: 2216 ps  Iteration: 0  Instance: /tb/stim1
+# Hint: Output 'walk_left' has no mismatches.
+# Hint: Output 'walk_right' has no mismatches.
+# Hint: Output 'aaah' has no mismatches.
+# Hint: Output 'digging' has no mismatches.
+# Hint: Total mismatched samples is 0 out of 443 samples
+# 
+# Simulation finished at 2216 ps
+# Mismatches: 0 in 443 samples
+# End time: 09:23:34 on Apr 19,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

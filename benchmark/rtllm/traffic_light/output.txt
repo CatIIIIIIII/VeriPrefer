@@ -1,0 +1,22 @@
+vsim -c -do "run -all; quit" testbench
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -do "run -all; quit" testbench 
+# Start time: 00:08:03 on Mar 21,2025
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.traffic_light
+# run -all
+# At time                40000, clock =   8, red = 1, yellow = 0, green = 0
+# At time               140000, clock =   9, red = 0, yellow = 0, green = 1
+# At time               740000, clock =  10, red = 0, yellow = 1, green = 0
+# At time               890000, clock =   1, red = 1, yellow = 0, green = 0
+# At time               920000, clock =   9, red = 0, yellow = 0, green = 1
+# At time               930000, clock =   9, red = 0, yellow = 0, green = 1
+# ===========Failed===========          1
+# ** Note: $finish    : testbench.v(78)
+#    Time: 930 ns  Iteration: 0  Instance: /testbench
+# End time: 00:08:04 on Mar 21,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

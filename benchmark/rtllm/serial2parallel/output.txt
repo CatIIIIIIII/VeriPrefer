@@ -1,0 +1,68 @@
+vsim -c -do "run -all; quit" testbench
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -do "run -all; quit" testbench 
+# Start time: 00:09:52 on Mar 21,2025
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.serial2parallel
+# run -all
+# ** Fatal: Unable to read lock file necessary for use of uncounted nodelocked license. Exiting.
+# End time: 00:12:07 on Mar 21,2025, Elapsed time: 0:05:00
+# Errors: 0, Warnings: 0
+# ** Fatal: Unable to read lock file necessary for use of uncounted nodelocked license. Exiting.
+# End time: 00:12:16 on Mar 21,2025, Elapsed time: 0:05:00
+# Errors: 0, Warnings: 0
+# ** Fatal: Unable to read lock file necessary for use of uncounted nodelocked license. Exiting.
+# End time: 00:12:25 on Mar 21,2025, Elapsed time: 0:05:00
+# Errors: 0, Warnings: 0
+# ** Fatal: Unable to read lock file necessary for use of uncounted nodelocked license. Exiting.
+# End time: 00:12:34 on Mar 21,2025, Elapsed time: 0:05:00
+# Errors: 0, Warnings: 0
+# ** Fatal: Unable to read lock file necessary for use of uncounted nodelocked license. Exiting.
+# End time: 00:12:43 on Mar 21,2025, Elapsed time: 0:05:00
+# Errors: 0, Warnings: 0
+# ** Fatal: Unable to read lock file necessary for use of uncounted nodelocked license. Exiting.
+# End time: 00:12:52 on Mar 21,2025, Elapsed time: 0:05:00
+# Errors: 0, Warnings: 0
+# ** Fatal: Unable to read lock file necessary for use of uncounted nodelocked license. Exiting.
+# End time: 00:13:01 on Mar 21,2025, Elapsed time: 0:05:00
+# Errors: 0, Warnings: 0
+# ** Fatal: Unable to read lock file necessary for use of uncounted nodelocked license. Exiting.
+# End time: 00:13:10 on Mar 21,2025, Elapsed time: 0:05:00
+# Errors: 0, Warnings: 0
+# ** Fatal: Unable to read lock file necessary for use of uncounted nodelocked license. Exiting.
+# End time: 00:13:19 on Mar 21,2025, Elapsed time: 0:05:00
+# Errors: 0, Warnings: 0
+# ** Fatal: Unable to read lock file necessary for use of uncounted nodelocked license. Exiting.
+# End time: 00:13:28 on Mar 21,2025, Elapsed time: 0:05:00
+# Errors: 0, Warnings: 0
+# ** Fatal: Unable to read lock file necessary for use of uncounted nodelocked license. Exiting.
+# End time: 00:13:37 on Mar 21,2025, Elapsed time: 0:05:00
+# Errors: 0, Warnings: 0
+# ** Fatal: Unable to read lock file necessary for use of uncounted nodelocked license. Exiting.
+# End time: 00:13:46 on Mar 21,2025, Elapsed time: 0:05:00
+# Errors: 0, Warnings: 0
+# ** Fatal: Unable to read lock file necessary for use of uncounted nodelocked license. Exiting.
+# End time: 00:13:55 on Mar 21,2025, Elapsed time: 0:05:00
+# Errors: 0, Warnings: 0
+# ** Fatal: Unable to read lock file necessary for use of uncounted nodelocked license. Exiting.
+# End time: 00:14:04 on Mar 21,2025, Elapsed time: 0:05:00
+# Errors: 0, Warnings: 0
+# ** Fatal: Unable to read lock file necessary for use of uncounted nodelocked license. Exiting.
+# End time: 00:14:13 on Mar 21,2025, Elapsed time: 0:05:00
+# Errors: 0, Warnings: 0
+# ** Fatal: Unable to read lock file necessary for use of uncounted nodelocked license. Exiting.
+# End time: 00:14:25 on Mar 21,2025, Elapsed time: 0:05:00
+# Errors: 0, Warnings: 0
+# ** Fatal: Unable to read lock file necessary for use of uncounted nodelocked license. Exiting.
+# End time: 00:14:34 on Mar 21,2025, Elapsed time: 0:05:00
+# Errors: 0, Warnings: 0
+# ** Fatal: Unable to read lock file necessary for use of uncounted nodelocked license. Exiting.
+# End time: 00:14:43 on Mar 21,2025, Elapsed time: 0:05:00
+# Errors: 0, Warnings: 0
+# ** Fatal: Unable to read lock file necessary for use of uncounted nodelocked license. Exiting.
+# End time: 00:14:52 on Mar 21,2025, Elapsed time: 0:05:00
+# Errors: 0, Warnings: 0

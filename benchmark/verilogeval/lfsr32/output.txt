@@ -1,0 +1,23 @@
+vsim -c -do "run -all; quit" tb
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -do "run -all; quit" tb 
+# Start time: 09:21:26 on Apr 19,2025
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.stimulus_gen
+# Loading work.RefModule
+# Loading work.TopModule
+# run -all
+# TIMEOUT
+# ** Note: $finish    : testbench.v(114)
+#    Time: 1 us  Iteration: 0  Instance: /tb
+# Hint: Output 'q' has 199960 mismatches. First mismatch occurred at time 180.
+# Hint: Total mismatched samples is 199960 out of 199999 samples
+# 
+# Simulation finished at 1000000 ps
+# Mismatches: 199960 in 199999 samples
+# End time: 09:21:27 on Apr 19,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

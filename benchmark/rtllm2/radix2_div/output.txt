@@ -1,0 +1,25 @@
+vsim -c -do "run -all; quit" testbench
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -do "run -all; quit" testbench 
+# Start time: 09:48:44 on Mar 24,2025
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.radix2_div
+# ** Error: (vsim-3063) Port 'rst' not found in the connected module (2nd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut File: testbench.v Line: 14
+# ** Error: (vsim-3063) Port 'sign' not found in the connected module (5th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut File: testbench.v Line: 14
+# ** Error: (vsim-3063) Port 'opn_valid' not found in the connected module (6th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut File: testbench.v Line: 14
+# ** Error: (vsim-3063) Port 'res_valid' not found in the connected module (7th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut File: testbench.v Line: 14
+# ** Error: (vsim-3063) Port 'res_ready' not found in the connected module (8th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut File: testbench.v Line: 14
+# ** Error: (vsim-3063) Port 'result' not found in the connected module (9th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/uut File: testbench.v Line: 14
+# Error loading design
+# End time: 09:48:44 on Mar 24,2025, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0

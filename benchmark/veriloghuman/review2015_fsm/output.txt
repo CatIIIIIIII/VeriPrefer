@@ -1,0 +1,24 @@
+vsim -c -do "run -all; quit" testbench
+Reading pref.tcl
+
+# 2020.1
+
+# vsim -c -do "run -all; quit" testbench 
+# Start time: 14:03:23 on Apr 07,2025
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.stimulus_gen
+# Loading work.reference_module
+# Loading work.top_module
+# run -all
+# Hint: Your FSM didn't pass the sample timing diagram posted with the problem statement. Perhaps try debugging that?
+# ** Note: $finish    : testbench.v(130)
+#    Time: 25346 ps  Iteration: 0  Instance: /testbench/stim1
+# Hint: Output 'shift_ena' has 259 mismatches. First mismatch occurred at time 100.
+# Hint: Output 'counting' has 938 mismatches. First mismatch occurred at time 100.
+# Hint: Output 'done' has 451 mismatches. First mismatch occurred at time 350.
+# Your Design Failed
+# Simulation finished at 25346 ps
+# Mismatches: 1434 in 5069 samples
+# End time: 14:03:24 on Apr 07,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
