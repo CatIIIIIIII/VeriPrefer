@@ -6,7 +6,7 @@ This is the official implementation for the paper "Insights from Verification: T
 ## Introduction
 
 This repository contains the code and data for training a Verilog generation model using reinforcement learning (RL) with feedback from testbenches. The goal is to improve the quality of generated Verilog code by leveraging the verification insights.
-![overview](assets/overview.png)
+![overview](./assets/overview.png)
 
 ## Requirements
 
