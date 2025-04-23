@@ -181,5 +181,13 @@ print(generated_text.strip())
 If you use this code or dataset in your research, please cite our paper:
 
 ```bibtex
-
+@misc{wang2025insightsverificationtrainingverilog,
+      title={Insights from Verification: Training a Verilog Generation LLM with Reinforcement Learning with Testbench Feedback}, 
+      author={Ning Wang and Bingkun Yao and Jie Zhou and Yuchen Hu and Xi Wang and Nan Guan and Zhe Jiang},
+      year={2025},
+      eprint={2504.15804},
+      archivePrefix={arXiv},
+      primaryClass={cs.AR},
+      url={https://arxiv.org/abs/2504.15804}, 
+}
 ```
