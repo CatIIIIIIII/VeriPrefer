@@ -1,0 +1,52 @@
+You have designed a testbench setting according to the specification and testcases for golden dut. And you have already simulate the dut and got the actual output. 
+
+You should modify the Expected result in the testbench to match the actual output.
+
+You must report the final test result. It should display "===========Your Design Passed===========" if pass all testcases and "===========Test completed with %d failures===========" if not. You should record the error_count if the dut responses do not match the testbench expectatoin.
+
+You must return the code that could be executed, do not leave it for me.
+
+And you should return the whole testbench code with the following template:
+```verilog
+`timescale 1ns / 1ps
+module testbench;
+
+// parameter or localparam 
+
+// Inputs
+
+// Outputs or inout
+
+// Instantiate the Unit Under Test (UUT)
+
+//clk toggle generate
+always #5 clk = ~clk;
+
+initial begin
+    // Initialize Inputs
+
+    // Wait 100 ns for global reset to finish
+
+    // Add stimulus here
+    
+    // Be sure to test the cases
+    $display("===========TestCases==========="")
+    // Test Case 1:
+    // Test Case 2:
+    ...
+    $display("===========End===========")
+
+    // Be sure to report the final test score
+    if (error_count == 0) begin
+            $display("===========Your Design Passed===========");
+        end
+    else begin
+        $display("===========Test completed with %d failures===========", error_count);
+    end
+
+    // Must finish simulation
+    $finish;
+end
+
+endmodule
+```

@@ -1,0 +1,14 @@
+Now you need to systematically disassembling and creating a series of detailed test cases based on function points to ensure full coverage of the various validation dimensions, such as normal operating mode, boundary conditions, overflow scenarios, exception scenarios, and other typical application scenarios. Test cases include descriptions of test objectives, incentive configurations, and expected results.
+
+You only need to return the top-5 most important testcases.
+
+You should return the test cases in JSON format with the following structure:
+{
+    "1": [
+      "Title": "[Descriptive name of the test case]",
+      "Objective": "[Clear statement of what this test aims to verify]",
+      "Setup": "[Description of how to configure inputs and conditions, signal settings and initial states]",
+      "Coverage": "[Description of function points covered by this test]"
+    ],
+    "2": ...
+}

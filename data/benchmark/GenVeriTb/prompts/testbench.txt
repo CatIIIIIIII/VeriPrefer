@@ -1,0 +1,44 @@
+You now need to create a Verilog testbench for the following module specification. Your testbench should properly instantiate the DUT with all ports connected and generate appropriate clock and reset signals as needed. Include comprehensive test vectors covering normal operation, edge cases, and error conditions. Add helpful comments explaining test scenarios and your verification approach. The final code should be a self-contained, ready-to-simulate testbench that follows good Verilog coding practices.
+
+You do not need to automatic checking. You only need to display the result of the dut under the settings of testcases.
+
+You need to test all testcases. You must not ignore or omit the testcases.
+
+You need to return your testbench following the template.
+```verilog
+`timescale 1ns / 1ps
+module testbench;
+
+// parameter or localparam 
+
+// Inputs
+
+// Outputs or inout
+
+// Instantiate the Unit Under Test (UUT)
+
+//clk toggle generate
+always #5 clk = ~clk;
+
+initial begin
+    // Initialize Inputs
+
+    // Wait 100 ns for global reset to finish
+
+    // Add stimulus here
+
+    // Be sure to report evey testcases and the actual response
+    $display("===========TestCases===========")
+    // Test Case 1:
+    $display("Test Case 1. Expected x1: %d", Expected x2: %d, ...)
+    $display("Test Case 1. Actual x1: %d", Actual x2: %d, ...)
+    // Test Case 2:
+    ...
+    $display("===========End===========")
+
+    // Must finish simulation
+    $finish;
+end
+
+endmodule
+```

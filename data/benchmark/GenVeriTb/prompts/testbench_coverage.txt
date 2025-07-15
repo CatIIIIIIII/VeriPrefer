@@ -1,0 +1,13 @@
+Now you have generated a testbench successfully. Howover, the line coverage is not lower than the threshold {threshold}%. Current line coverage is {line_coverage}%. 
+
+The detailed line coverage information is as follows:
+{line_coverage_info}
+
+This report use 0/1 and 1/1 to indicate the line coverage. 0/1 means the line is not covered. 1/1 means the line is covered. You should focus on design new testcases targeting the lines with 0/1. You do not need to consider keywords like "if", "else", "end", ... in verilog when improving the line coverage.
+
+Now you need to add new testcases to the testbench to increase the line coverage. The original testbench is
+```verilog
+{testbench}
+```
+
+Give me the full code, do not omit anything in the previous testbench. Return the code wrapped by ```verilog and ```.

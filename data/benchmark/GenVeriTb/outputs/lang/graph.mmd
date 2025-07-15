@@ -1,0 +1,32 @@
+%%{init: {'flowchart': {'curve': 'linear'}}}%%
+graph TD;
+	__start__([<p>__start__</p>]):::first
+	llm_function_points(llm_function_points)
+	llm_testcases(llm_testcases)
+	llm_testbench(llm_testbench)
+	vcs_compile(vcs_compile)
+	vcs_simulate(vcs_simulate)
+	llm_testbench_align(llm_testbench_align)
+	vcs_simulate_align(vcs_simulate_align)
+	vcs_coverage(vcs_coverage)
+	llm_coverage(llm_coverage)
+	__end__([<p>__end__</p>]):::last
+	__start__ --> llm_function_points;
+	llm_coverage --> vcs_coverage;
+	llm_function_points --> llm_testcases;
+	llm_testbench --> vcs_compile;
+	llm_testbench_align --> vcs_simulate_align;
+	llm_testcases --> llm_testbench;
+	vcs_simulate --> llm_testbench_align;
+	vcs_compile -. &nbsp;Compilation_Success&nbsp; .-> vcs_coverage;
+	vcs_compile -. &nbsp;Max_Iterations_Reached&nbsp; .-> __end__;
+	vcs_compile -. &nbsp;Compilation_Failure&nbsp; .-> llm_testbench;
+	vcs_coverage -. &nbsp;Coverage_Success&nbsp; .-> vcs_simulate;
+	vcs_coverage -. &nbsp;Max_Iterations_Reached&nbsp; .-> vcs_simulate;
+	vcs_coverage -. &nbsp;Coverage_Failure&nbsp; .-> llm_coverage;
+	vcs_simulate_align -. &nbsp;Simulate_Success&nbsp; .-> __end__;
+	vcs_simulate_align -. &nbsp;Max_Iterations_Reached&nbsp; .-> __end__;
+	vcs_simulate_align -. &nbsp;Simulate_Failure&nbsp; .-> llm_testbench_align;
+	classDef default fill:#f2f0ff,line-height:1.2
+	classDef first fill-opacity:0
+	classDef last fill:#bfb6fc
